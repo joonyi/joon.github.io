@@ -327,8 +327,8 @@
                             <h2>Digital Integrated Circuit/VLSI</h2>
                             <p class="item-intro text-muted">Cadence Virtuoso</p>
                             <img class="img-responsive img-centered" src="img/portfolio/cadence2.jpg" alt="">
-                            <p>With current technology, a computer microship contains hundreds of thousands of transistor, hence Very Large Integrated Circui, VLSI. There are many hierarchies and levels of abstractionin VLSI design. They range from high-level system design to transistor-level circuit layout.</p>
-                            <p>Electronic design automation.</p>
+                            <p>With current technology, a computer microship contains hundreds of thousands of transistor, hence Very Large Integrated Circui, VLSI. There are many hierarchies and levels of abstractionin VLSI design. They range from high-level system design to transistor-level circuit layout. This project  require creation of structural and functional descriptions of elementary and complex logic functions in a hierarchical system  and use Verilog simulations to verify functional behavior. When it is done, the circuit layout is drawn and stimulated for correct implementation.</p>
+                            <p>Our team is to design an ALU which preforms arithmetic and logic operations on numbers, e.g. AND, OR, ADD, Subtract, Increment, Decrement, Compare, etc. The minimum operations expected are: Add, Add with carry, Subtract, Subtract with borrow, Negate (2's complement), Logical AND, Logical OR, Logical XOR, Complement (1's complement), Compare (set on less than, set on larger than, set on equal, set on less than or equal), Arithmetic Shift Left, and Rotate Left. Minimum number of bits is 4 bits. Clock frequency ≥ 100 MHz.</p>
                             <p>Full details can be found on the <a class="page-scroll" href="files/VLSI.pdf" target="_blank">VLSI project</a></p>       
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -354,7 +354,12 @@
                             <h2>Wearable Gunshot Detector</h2>
                             <p class="item-intro text-muted">PCB design & Coding</p>
                             <img class="img-responsive img-centered" src="img/portfolio/gunshot2.jpg" alt="">
-                            <p><br>under construction</p>                            
+                            <p><br>Professor of Criminology, Dr. Charles Loeffler, had an ongoing project exploring the use of wearable accelerometers to detect gunshot events from a continuous stream of sensor data, this project would develop prototype hardware systems. These systems, based on embedded micro-controller chips and MEMs inertial sensors, would be used to test alternative sensor specifications, communication protocols, and sensor integrations. </p>
+                            <p> I was fortunate to be the successful applicant to participate in the development and testing of hardware in real-world data collection settings. The PCB design was simple, it was done using Cadence Allegro. Harder part was to make accelerometer, RF module and Matlab real-time display working as expected. Picture above shows, the C codes that makes RF module worked; but I didn't have the video of final project just managed to find a prototype of Matlab  GUI real-time display video. Three graphs were showing data of acceleration xyz each. The data shows in the video is wrong, it was rectified at last.</p>   
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/t6XhL55K7RI" frameborder="0"></iframe> 
+                            </div>  
+                            <p><br>The accelerometer shows in video was then integrated together with ATmega328 microcontroller and NRF24LE1 nordic RF module. The real-time data then correctly displayed through Matlab GUI.</p>             
                             <p>The news are on <a href="http://www.upenn.edu/pennnews/current/2014-09-18/latest-news/penn-criminologist-demonstrates-wearable-gunshot-detection" target="_blank">Penn News</a></p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -381,9 +386,9 @@
                             <h2>Intrabody Communication</h2>
                             <p class="item-intro text-muted">PCB design</p>
                             <img class="img-responsive img-centered" src="img/portfolio/IBC2.jpg" alt="">
-                            <p>under construction</p>
-                            <p></p>
-                            <p>A completed project, bill of materials, and library can be found in the <a href="https://github.com/muniza/wireless" target="_blank">wireless repo</a>.</p>
+                            <p>I am assiting a PHD student in his Intrabody Communication project.</p>
+                            <p>Picture above shows the board of which we wanted to build.  The mixer used on the RX board is the AD8348 quadrature demodulator. The received signal from the EF IBC channel is fed to the RF input of the mixer and a local oscillator signal that is generated by an AD9954 DDS is fed to the LO inputs. The received signal is first amplified by an RF band low-noise amplifier with 19dB-gain and mixed to baseband. A baseband 4th-order butterworth low-pass filter with 3dB bandwidth at 6MHz is used to eliminate the high-frequency harmonics and carriers. The low-pass filtered signal is then amplified by an AD8369 digitally controlled variable gain amplifier (VGA). An AD9201 dual channel, 20MHz, 10-bit resolution CMOS ADC is placed after the VGA to quantize the amplified baseband signal. The ADC input differential dynamic range is ±1V. The gain of the VGA on the RX board is set to different values to ensure that the input voltage to the ADC does not saturate, since the TX cannot adjust its output voltage. The ADC quantized data are fed to an SN65LV1023A parallel-to-serial converter and then the serialized data are forwarded to an HFBR-53D5 fiber optical transceiver. The RX board noise floor is at -140dBm/Hz.</p>
+                            <p>Data are transmitted through an optical fiber to the optical transceiver on another PCB, on which the optical signal is converted back to serial electrical data and deserialized by an SN65LV1224B deserializer. The parallel output of the deserializer is recorded by an Agilent 16902B logic analyzer</p>                            
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -411,8 +416,8 @@
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4fHytzE2Zo4"></iframe>
                             </div>
-                            <p><br>This is a small and simple project. The mission is to convert the old analog control into new touchscreen control. Unfortunately, I didn't take picture of the whole system which include the thermostat. The video above shows the basic touchscreen control.</p>
-                            <p>Later, it becomes a more beautiful design, but the basic function is identical.</p>
+                            <p><br>This is a small and simple project. The mission is to convert the old analog control into new touchscreen control. The video above shows the basic touchscreen control. This touchscreen control is then connected to a thermostat which is the actuator.</p>
+                            <p>Later, it becomes a more beautiful design, but the basic function is almost identical.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -437,6 +442,9 @@
                             <!-- Project Details Go Here -->
                             <h2>Heart Rate Monitor</h2>
                             <p class="item-intro text-muted">Microcontroller, Sensor, real-time display</p>
+                            <p>First, photo diode sensor senses the pulse signal from a finger tip. Then the sensor output is read by the Arduino board, which then transfers the data to the PC through a serial interface. A PC application has been developed using C language and running on Processing program to calculate instantaneous heart rate and display it.
+                            <p>Wifi part - Once our PC application finishes the calculation, it will send the heart rate value to an android phone over Wi-Fi. We developed an Android application in our HUAWEI phone and it will receive the data of heart rate from our PC. And the data would be processed in the Android application, therefore the phone would give alarm if the heart rate is out of normal range (in our case, 50 - 120 BPM).</p>
+                            <p>Bluetooth part - Once our PC application finishes the calculation, it will send the heart rate value to our Arduino board through serial port. Then the Arduino board will send the beat rate to our BlueTooth module, which will transmit the data to an Android phone. A self-built app in our LG phone will receive the data of heart rate through “BlueInput” app and process the data in the app. The phone would give alarm if the heart rate is out of normal range (in our case, 50 - 120 BPM).</p>
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src="https://youtube.com/embed/9Ye7r_XBG5A"></iframe>
                             </div>
@@ -465,8 +473,10 @@
                             <!-- Project Details Go Here -->
                             <h2>Tracker</h2>
                             <p class="item-intro text-muted">Microcontroller, GPS, GSM</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/GPS.jpg" alt="">                            
-                            <p>I was responsible to do coding for GSM and GPS module.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/GPS2.jpg" alt="">                            
+                            <p>I was responsible to do coding for GSM and GPS module. The above picture shows part of the code that get the data from GPS and send it to a particular phone number via sms.</p>
+                            <p>The code is complex, I didn't write them from the scratch, but it also took time to understand time. Besides the library often didn't do what I wanted, so I had to modified the library, understand them, and tried to implement my own version of library</p>
+                            <p>The final protytpe is doing well. User can choose a phone number, put in the code, he/she will then receive the longitude and latitude of the device. This helps him/she to track the bike, pet or stolen car by phone.</p>
                             <p>The full details of modules can be found on <a href="http://www.seeedstudio.com/wiki/LoNet_-_GSM/GPRS_Breakout" target="_blank">GSM Datasheet</a> and <a class="page-scroll" href="files/GPS-Datasheet.pdf" target="_blank">GPS Datasheet</a></p> </p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -518,11 +528,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>New Product Engineer</h2>
-                            
+                            <h2>New Product Engineer</h2>                            
                             <p class="item-intro text-muted">Texas Instrument</p>
                             <img class="img-responsive img-centered" src="img/portfolio/eagle.jpg" alt="">
-                            <p>New Product Engineer is responsible to qualify the new integrated circuit that has been released by RND team. </p>                            
+                            <p>New Product Engineer is responsible to qualify the new integrated circuit that has been released by RND team. We have to design and develop analog/mixed signal Automatic Testing Equipment solution, write C/C++ code and support production team for IC mass manufacturing</p>
+                            <p>Usually, the day will be spent inside clean room operating an Automatic Testing Equipment, writing C/C++ code. Digital multimeter and oscilloscope is my best friend to troubleshoot and debug unwanted circuit behavior.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
